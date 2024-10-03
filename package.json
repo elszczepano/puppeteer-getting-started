@@ -1,0 +1,26 @@
+{
+    "name": "puppeteer-getting-started",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "prestart": "npm run build",
+        "build": "tsc --build",
+        "start": "node dist/index.js",
+        "test": "exit 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elszczepano/puppeteer-getting-started.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "puppeteer": "^23.5.0"
+    },
+    "devDependencies": {
+        "@types/node": "22.7.4",
+        "typescript": "5.6.2"
+    }
+}

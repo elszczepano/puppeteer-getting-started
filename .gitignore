@@ -1,0 +1,6 @@
+node_modules
+tsconfig.tsbuildinfo
+dist
+pnpm-lock.yaml
+
+.DS_Store
