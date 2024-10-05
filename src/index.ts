@@ -13,7 +13,7 @@ import puppeteer from 'puppeteer-core';
 
         const page = await browser.newPage();
 
-        await page.goto( 'https://gov.pl' );
+        await page.goto( 'https://gov.pl', { waitUntil: 'domcontentloaded' } );
 
         const selector = await page.locator( '#Aktualnosci ul li .title' ).waitHandle();
         
